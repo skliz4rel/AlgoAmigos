@@ -1,0 +1,22 @@
+mid = Lo + ((Hi - Lo) / (A[Hi] - A[Lo])) * (X - A[Lo])
+
+where −
+   A    = list
+   Lo   = Lowest index of the list
+   Hi   = Highest index of the list
+   A[n] = Value stored at index n in the list
+
+
+
+Algorithm
+As it is an improvisation of the existing BST algorithm, we are mentioning the steps to search the 'target' data value index, using position probing −
+
+Step 1 − Start searching data from middle of the list.
+Step 2 − If it is a match, return the index of the item, and exit.
+Step 3 − If it is not a match, probe position.
+Step 4 − Divide the list using probing formula and find the new midle.
+Step 5 − If data is greater than middle, search in higher sub-list.
+Step 6 − If data is smaller than middle, search in lower sub-list.
+Step 7 − Repeat until match.
+
+

@@ -1,0 +1,73 @@
+Interfaces in Java
+1. Arrays
+2. List
+3. Queue
+4. Dequeue
+5. Set
+6. Vector
+7. Map
+
+Characters of  List
+An ordered collection aka sequence
+Allow duplicates
+Not Fixed in size like arrays
+Fast for data retrivals
+Various implementations below:
+
+ArrayList
+Stack
+Vector
+Others
+
+The implement the List interface in Java. Note that a list is backed by an array meaning that it is built on an array.
+
+
+Stack represents Last in First out.  So sample is your putting several cards on each other.
+
+behaivour of a stack
+push -- push it into the stack
+pop - removes it
+peek - just peeks the top element without removing it.
+
+Stack can be slow because they  have synchronized keyword on the pop() and push() methods. Because they are Thread safe.
+This is very  good in a multi-threaded environment. It prevents multiple thread from competiting with items that were removed.
+Avoiding a Null Pointer exceptions.
+
+Stack Implements from the Vector Interface. Difference btw Vector and a List is Vector is synchronized. if  a thread-safe implementation is not needed, it is recommended to use an ArrayList in place of a Vector or implemenations of Vector such has Stack.
+
+
+QUEUE
+FIFO. First in First Out.  A queue of customers at the bank.  
+Practical implementation is when you developing the software for a Printer. You want your Printer to print the first document that was sent to it.
+
+
+LinkedList
+This is a datastructure with the Head Node and the Tail NOde.
+Each ofthe node has a double link to the Node before it and the Node after it. So transversing tru a LinkedList is very fast.
+you can also insert a Node in any position. The LinkedList can take up more memory than an array but this days memory is not a problem
+But CPU optimisation is the major issue that you should be bothered about.
+
+Set
+A collection that contains no depulicate elements.
+
+Set does not guarantee order. It models the marthematical set abstraction.
+
+But the TreeSet is the only set that gives you order and it is backed by a TreeMap.
+
+Maps
+A map is a collection of key,value pair
+The key cannot be duplicate.
+ You can assign at most one value to a key.
+
+Maps use the hash function -> hashcode to do a look up for an object.
+hashcode is  an integer value that represents the value that is stored in a hashmap
+
+
+Graph Problem
+Note: In a graph problem an Acylce graph is a graph with no cycle. Meaning you cant more in a circular flow.
+
+Node is an element in the graph.  Edge is the path connecting two Nodes together.
+
+n= no of nodes.   e = no of edges
+Time complexity = O (e)
+Space complexity = O (n)
