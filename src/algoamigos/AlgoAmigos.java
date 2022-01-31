@@ -13,6 +13,7 @@ import algoamigos.graph.BreadthFirst1;
 import algoamigos.graph.DepthFirst;
 import algoamigos.graph.DepthFirst1;
 import algoamigos.graph.convertarray.InputConverter;
+import algoamigos.graph.convertarray.Makejsonclist;
 import algoamigos.graph.question1.Solution1;
 import algoamigos.graph.question1.Solution2;
 import algoamigos.graph.question2.UndirectedSolution1;
@@ -132,6 +133,9 @@ public class AlgoAmigos {
       
       System.out.println("This is an input converter that would convert two or multiple dimensional array to a Json c list or HashMap");
       InputConverter.convert();
+      
+      System.out.println("This is going to print Jsonclist");
+      Makejsonclist.display();
     }
     
     

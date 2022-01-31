@@ -101,10 +101,11 @@ public class InputConverter {
     public static String[][] inputs(){
         
         return new String[][] {
-            {"1", "2"},
-            {"2", "3"},
-            {"3", "4"},
-            {"1", "5"}
+            {"i", "j"},
+            {"k", "i"},
+            {"m", "k"},
+            {"k", "l"},
+            {"o", "n"}
         };
     }
     
