@@ -1,0 +1,2 @@
+# AlgoAmigos
+Algorithm class
