@@ -27,7 +27,8 @@ public class UndirectedSolution1 {
         Stack<String> stack =new Stack<>();
         stack.add(src);
         
-        Map graph = returnGraph();
+        Map<String, String[]> graph = returnGraph(); 
+        //String a = graph.keySet().toArray()[0];
         
         boolean result = solver( stack, graph, src, dest );
         

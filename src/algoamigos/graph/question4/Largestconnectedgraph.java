@@ -42,7 +42,7 @@ public class Largestconnectedgraph {
           if(count > largest){
               
               largest = count;
-              count = 0;
+              count = 0; //reset the counter variable
           }
        }
        

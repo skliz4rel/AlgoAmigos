@@ -19,8 +19,6 @@ public class GridgraphsSolution {
     
     public static void printDebug(){
         
-        
-        
            String[][] graph = returnGraph();
         
         for(int r=0; r <graph.length; r++){

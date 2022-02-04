@@ -21,7 +21,7 @@ public class Mystack {
         stack.push(3);
         stack.push(3);
          
-         System.out.println("total stack "+stack.size());
+        System.out.println("total stack "+stack.size());
 
         System.out.println("Peeked the last item inserted "+stack.peek());  //This is not going to remove the element from the stack.
         System.out.println(stack.size());
@@ -29,4 +29,5 @@ public class Mystack {
         System.out.println(stack.size());
         System.out.println(stack.empty());
     }
+    
 }
