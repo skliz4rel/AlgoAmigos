@@ -26,6 +26,7 @@ public class BinaryTree {
     
     /* Given a binary tree, print its nodes according to the
       "bottom-up" postorder traversal. */
+    //left, right, node
     void printPostorder(Node node){
         
         if(node == null) return;
@@ -41,6 +42,7 @@ public class BinaryTree {
     }
     
      /* Given a binary tree, print its nodes in inorder*/
+    //left, node, right
     void printInorder(Node node){
         
         if(node == null) return;
@@ -50,12 +52,12 @@ public class BinaryTree {
         // now deal with the node
         System.out.print(node.key + " ");
         
-        printInorder(node.right);
-             
+        printInorder(node.right);             
     }
     
     
     /* Given a binary tree, print its nodes in preorder*/
+    //node, left, right
     void printPreorder(Node node){
     
         if(node == null) return;
@@ -92,6 +94,6 @@ public class BinaryTree {
             this.key = key;
             left = right = null;
         }
-    }    
+    }
     
 }

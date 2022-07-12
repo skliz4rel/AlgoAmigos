@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package algoamigos.graph.question5;
 
 import java.util.ArrayList;
@@ -23,7 +24,7 @@ public class Shortestposibledistance {
 
     static List<String> visited = new ArrayList<>();
     
-      static  int distance = 0;
+    static  int distance = 0;
     
     public static void solve(){
         Map graph = returnGraph();
@@ -107,9 +108,6 @@ public class Shortestposibledistance {
         public String toString() {
             return "Node{" + "node=" + node + ", distance=" + distance + '}';
         }
-        
-        
     }
-    
     
 }

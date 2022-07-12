@@ -16,7 +16,7 @@ import java.util.Stack;
 public class DepthFirst {
     
     //For DepthFirst we use a Stack because we want the program to read a path in depth before going to other paths.
-    //becos of this we use a Stack LIFO. so that we read the Last value added first. So program can flow deep in a path before going to other close path.
+    //becos of this we use a Stack LIFO. so that we read the Last value added first. So program can flow deep in a path before going to other close path. 
     
     //This is going to use depth first 
     public static void readTrugraph(){

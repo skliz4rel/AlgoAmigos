@@ -46,7 +46,7 @@ public class Largestconnectedgraph {
           }
        }
        
-       System.out.println(largest);
+       System.out.println("Largest connected  "+largest);
    }
     
    

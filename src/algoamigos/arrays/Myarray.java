@@ -11,10 +11,11 @@ import java.util.Arrays;
  *
  * @author skliz
  */
+
 public class Myarray {
     
     public static void sample(){
-	
+                
 		String[] colors = new String[10];
 		
 		colors[0] = "purple";
@@ -26,6 +27,7 @@ public class Myarray {
                 
                 //Reading Array from the front
                 System.out.println();
+                
                 for(int i=0; i< colors.length; i++){
                     System.out.print(colors[i]+" ");
                 }
@@ -55,6 +57,13 @@ public class Myarray {
 		int[] numbers = {100,200};
 		
 		System.out.println(Arrays.toString(numbers));
+                
+                int[] numbers1 = {1,2,3,4,5,5};
+                
+                int search  = Arrays.binarySearch(numbers1, 1);
+                
+                
+                
 	}
     
 }

@@ -43,9 +43,9 @@ public class Makejsonclist {
             }
             
            //fill item in the list
-           List<String> list= newjsonlist.get(node1);
-            list.add(node2);
-            newjsonlist.replace(node1, list);
+           List<String> list = newjsonlist.get(node1);
+           list.add(node2);
+           newjsonlist.replace(node1, list);
             
            
             //Do the same for the second item

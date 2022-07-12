@@ -13,6 +13,7 @@ import java.util.TreeSet;
  *
  * @author skliz
  */
+
 public class GridgraphsSolution {
     
     private static List<Node> visited = new ArrayList<>();

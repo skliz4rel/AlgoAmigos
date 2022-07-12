@@ -44,7 +44,7 @@ public class BinaryTree1 {
                /*Enqueue right child */
                if(tempNode.right != null){
                    queue.add(tempNode.right);
-               }               
+               }
         
         }
     }

@@ -68,7 +68,7 @@ public class AlgoAmigos {
         Solution1.depthfirstanswer();
         
         
-         System.out.println("Graph solution1, Longer approach 1");
+        System.out.println("Graph solution1, Longer approach 1");
         Solution1.depthfirstanswer1();
         
         

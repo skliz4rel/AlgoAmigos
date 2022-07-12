@@ -43,7 +43,7 @@ public class CountConnectedComponent {
        
        System.out.println(count);
    }
-    
+   
    
    public static boolean countValues(String current, Map map){
        

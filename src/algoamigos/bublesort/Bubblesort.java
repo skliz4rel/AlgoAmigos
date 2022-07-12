@@ -15,7 +15,7 @@ public class Bubblesort {
     
     static int[] numbers = {6, 5,8,1,9,3,100,1000, 10,15,12,-3,101 ,16,2,7,-2,-1,102 };
     
-    public static void sort(){
+    public static void sort(){  
         
         boolean notSorted = true;
 

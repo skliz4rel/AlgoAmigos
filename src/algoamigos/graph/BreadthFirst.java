@@ -16,6 +16,7 @@ import java.util.Queue;
  *
  * @author skliz
  */
+
 public class BreadthFirst {
     
     //For Breadth First We use a queue because when we are reading through the path. We want a scenario were the point arround the starting node. Are read first.

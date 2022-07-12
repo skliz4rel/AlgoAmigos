@@ -42,7 +42,8 @@ public class Mylist {
         List<String> imutableList = List.of(new String[] {"blue","yellow"}); //
         List<String> imutableList1 = List.of("blue", "yellow"); //Another way of creating it.
         
-       
+        
+        imutableList.indexOf("blue");
         
         //methods of the List collections
         System.out.println(colors.size());
